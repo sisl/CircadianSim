@@ -1,0 +1,35 @@
+# Citation metadata for CircadianPOMDP.jl
+# Update title, url, and preferred-citation when the paper is published.
+cff-version: "1.2.0"
+title: "CircadianPOMDP: Julia software for circadian rhythm and sleep-wake particle-based simulation"
+version: "0.1.0"
+type: software
+message: "If you use this software, please cite it as below."
+abstract: "Julia package for circadian rhythm and sleep-wake modeling with particle-based simulation, including jet lag experiments. Archives the software used in the accompanying manuscript: baseline runs, timezone shifts, light interventions, and adaptation-time estimation."
+authors:
+  # Primary Author (corresponding author)
+  - family-names: "Weed"
+    given-names: "Lara"
+    email: "weed@stanford.edu"
+  # Co-author 1
+  - family-names: "Jamgochian"
+    given-names: "Arec"
+  # Co-author 2
+  - family-names: "Kochenderfer"
+    given-names: "Mykel J."
+  # Co-author 3 and PI
+  - family-names: "Zeitzer"
+    given-names: "Jamie M."
+repository-code: "https://github.com/sisl/CircadianSim"
+# Stanford Academic Software License (Stanford Docket S26-030); not an SPDX licence, so linked rather than named
+license-url: "https://github.com/sisl/CircadianSim/blob/main/LICENSE"
+# Add when the release is made (YYYY-MM-DD):
+# date-released: "YYYY-MM-DD"
+# Uncomment and fill when paper is accepted:
+# preferred-citation:
+#   type: article
+#   title: "Paper title"
+#   authors: [...]
+#   journal: "..."
+#   year: ...
+#   url: "..."

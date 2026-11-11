@@ -1,0 +1,7 @@
+Data/
+
+**/Manifest.toml
+
+.DS_Store
+
+test/output/

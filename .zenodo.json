@@ -1,0 +1,43 @@
+{
+  "title": "CircadianPOMDP: Julia software for circadian rhythm and sleep-wake particle-based simulation",
+  "upload_type": "software",
+  "description": "Julia package for circadian rhythm and sleep-wake modeling with particle-based simulation, including jet lag experiments: baseline runs, timezone shifts, light interventions, and adaptation-time estimation. This release archives the software used in the accompanying manuscript. Included: source code, experiment scripts (steps 1–4) and the reviewer analyses behind the paper's figures and reported results, quickstart examples, and tests. Not included: generated simulation outputs under Data/ (regenerate via the documented pipeline). Requires Julia 1.11+. NHANES comparison requires separately downloaded CDC NHANES SLQ data; SHAP analysis requires Python packages via PyCall. Licensed under the Stanford Academic Software License (Stanford Docket S26-030); see LICENSE.",
+  "creators": [
+    {
+      "name": "Weed, Lara",
+      "affiliation": "Stanford University"
+    },
+    {
+      "name": "Jamgochian, Arec",
+      "affiliation": "Stanford University"
+    },
+    {
+      "name": "Kochenderfer, Mykel J.",
+      "affiliation": "Stanford University"
+    },
+    {
+      "name": "Zeitzer, Jamie M.",
+      "affiliation": "Stanford University"
+    }
+  ],
+  "access_right": "open",
+  "version": "v0.1.0",
+  "keywords": [
+    "circadian rhythm",
+    "sleep",
+    "jet lag",
+    "POMDP",
+    "particle simulation",
+    "light intervention",
+    "Julia",
+    "reproducibility"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sisl/CircadianSim",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ]
+}
